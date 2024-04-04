@@ -15,7 +15,10 @@ def tanhFunction(x):
     return np.tanh(x)
 
 
-x = np.linspace(-5, 5, 100)
+# x = np.linspace(-5, 5, 100)
+random_values = [-3.5, -1.2, 0, 2.8, -4.1, 1.5, -0.7, 3.2, -2.4, 4.6]
+x = np.array(random_values)
+x =np.sort(x) 
 
 # finding the y values 
 y_sigmoid = sigmoidFunction(x)
